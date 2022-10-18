@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import AricleList from "../UI/ArticleList/ArticleList";
 
 import "./home.css";
 
@@ -13,18 +14,13 @@ const Home = () => {
 
   return (
     <React.Fragment>
-      <form className="main-home" onSubmit={inputHandler}>
-        <input placeholder="Enter text to seach for " />
-        <label>Filter By:</label>
-        <select>
-          <option>All</option>
-          <option>Education</option>
-          <option>Travel</option>
-          <option>IT</option>
-          <option>Food</option>
-        </select>
-        <button>Search</button>
+      <form className="form" onSubmit={inputHandler}>
+        <input className="form-control" placeholder="Search Blogs " />
+        <input className="form-control" placeholder="Filter By:"></input>
       </form>
+      <hr></hr>
+
+      <AricleList></AricleList>
     </React.Fragment>
   );
 };

@@ -1,0 +1,18 @@
+.blog-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.blog-list a {
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+}
+
+.blog-list :hover {
+    background-color: rgb(225, 225, 75);
+    color: black;
+}

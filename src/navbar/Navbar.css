@@ -1,13 +1,19 @@
+.mainHead {
+    z-index: 10;
+    position: absolute;
+}
+
 .navlist {
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:flex-end;
     align-items: center;
     text-decoration: none;
     background-color: aquamarine;
+    position: relative;
 }
 
 .navlist li {

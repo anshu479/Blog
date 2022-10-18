@@ -1,20 +1,8 @@
-input {
-    width: 80%;
-    display: flex;
-    padding: 0.5rem;
-    margin: 1rem;
+.form {
+    margin-left: 20%;
+
 }
 
-.main-home {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 0.5rem;
-}
 
-.main-home select {
-    margin: 1rem;
-}
 
 
